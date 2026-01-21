@@ -12,7 +12,6 @@ namespace Selenium_with_Csharp_Funds
             Console.WriteLine("Hello, CSharp World");
             Console.WriteLine("Process Start Info Example");
             Console.WriteLine("Opening Chrome Browser...");
-            Console.WriteLine("One more modifications");
             Console.ReadLine();
 
         }
