@@ -9,7 +9,8 @@ namespace Selenium_with_Csharp_Funds
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-        }
+            Console.WriteLine("Hello, CSharp World");
+            Console.WriteLine("Process Start Info Example");
+		}
     }
 }
