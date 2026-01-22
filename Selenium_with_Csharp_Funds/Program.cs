@@ -5,10 +5,18 @@ using System.Text;
 
 namespace Selenium_with_Csharp_Funds
 {
-    internal class Program
+    internal class Program:Program4
     {
+        public void getData()
+        {
+            Console.WriteLine("I am inside the method.");
+        }
         public static void Main(string[] args)
         {
+            Program p = new Program();
+            p.getData();
+            p.setData();
+
             int a = 10;
             Console.WriteLine("The value of a is "+ a);
 
